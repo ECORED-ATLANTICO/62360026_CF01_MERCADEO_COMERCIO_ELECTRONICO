@@ -9,12 +9,15 @@
           i.fas.fa-info
       h1 Introducción
     
-    .row.justify-content-center.align-items-center           
-      .col-lg-12
+    .row.mb-5.justify-content-center.align-items-center
+      .col-lg-4.mb-3.mb-lg-0
         figure
-          .video.mb-2
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video: Leyenda del video
+          img(src="@/assets/curso/1.png", data-aos="zoom-in")
+      .col-lg-8
+        p(data-aos="fade-right") El comercio electrónico constituye uno de los pilares fundamentales de la transformación digital de los procesos comerciales, permitiendo que organizaciones de diferentes tamaños interactúen con sus clientes mediante entornos digitales; su comprensión facilita la identificación de herramientas, aplicaciones y dinámicas que intervienen en la exhibición y comercialización de productos en internet.
+        .cajon.color-acento-botones.p-4
+          p.mb-0 Este componente aborda los conceptos esenciales del comercio electrónico, la comunicación online y el lenguaje web, mediante explicaciones técnicas, ejemplos empresariales y casos aplicados. A través de un enfoque estratégico y contextualizado, el aprendiz reconocerá los elementos que intervienen en los ecosistemas digitales y su relación con la exhibición de productos en entornos comerciales electrónicos.
+
 </template>
 
 <script>

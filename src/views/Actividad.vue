@@ -19,10 +19,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Reconociendo entornos digitales.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> identificar conceptos, características y aplicaciones del comercio electrónico, la comunicación online y el lenguaje web, mediante la resolución de preguntas de selección múltiple con única respuesta.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,61 +30,67 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Qué permite comercializar productos mediante internet utilizando tecnologías digitales actualmente disponibles?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto:
+                'Facilitar intercambios comerciales mediante plataformas digitales conectadas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Organizar inventarios físicos en establecimientos comerciales tradicionales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Controlar exclusivamente procesos internos de manufactura empresarial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Gestionar transporte terrestre sin interacción comercial digital.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            '¿Qué aspecto caracteriza principalmente las tendencias actuales del comercio electrónico?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Reducción permanente del acceso digital para usuarios globales.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+                'Evolución tecnológica que transforma interacción y procesos comerciales.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto:
+                'Eliminación completa de contenidos publicados mediante internet actualmente.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
-        },
-        {
-          id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Auto</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Text</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
+              texto:
+                'Sustitución exclusiva de plataformas digitales por medios impresos.',
               esCorrecta: false,
             },
           ],
@@ -93,30 +99,30 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto:
+            '¿Qué tipo comercial relaciona directamente empresas con consumidores finales digitales?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'C2B',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'B2B',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
-              esCorrecta: false,
+              texto: 'B2C',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'C2C',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -125,29 +131,33 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Cuál beneficio aportan herramientas utilizadas dentro del comercio electrónico actualmente?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto:
+                'Limitar actualización permanente de información comercial disponible digitalmente.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto:
+                'Restringir interacción entre usuarios y organizaciones participantes.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
+              texto:
+                'Sustituir completamente contenidos utilizados para exhibir productos digitales.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
+              texto:
+                'Facilitar gestión organizada de procesos comerciales digitales empresariales.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -155,30 +165,33 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto:
+            '¿Qué función cumplen dispositivos utilizados dentro del comercio electrónico digital?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
+                'Permitir acceso a contenidos comerciales mediante diferentes entornos digitales.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto:
+                'Reemplazar completamente plataformas utilizadas para comercializar productos digitales.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto:
+                'Gestionar exclusivamente actividades administrativas fuera de internet empresarial.',
               esCorrecta: false,
             },
             {
               id: 'd',
               texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+                'Eliminar necesidades tecnológicas asociadas a procesos comerciales actuales.',
               esCorrecta: false,
             },
           ],
@@ -188,28 +201,32 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Qué propósito cumplen aplicaciones utilizadas dentro del comercio electrónico actualmente?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto:
+                'Limitar actualización de contenidos publicados en plataformas digitales empresariales.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto:
+                'Facilitar gestión organizada de información y procesos comerciales digitales.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto:
+                'Sustituir completamente dispositivos utilizados para acceder a internet actualmente.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto:
+                'Eliminar interacción entre usuarios y organizaciones mediante canales digitales.',
               esCorrecta: false,
             },
           ],
@@ -219,28 +236,32 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+            '¿Qué caracteriza principalmente la comunicación <em>online</em> desarrollada mediante internet actualmente?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
+              texto:
+                'Intercambio de información utilizando medios digitales conectados permanentemente.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto:
+                'Exclusión de usuarios durante procesos comunicativos desarrollados digitalmente.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto:
+                'Sustitución completa de contenidos informativos por documentos impresos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto:
+                'Restricción permanente del acceso a plataformas utilizadas comercialmente.',
               esCorrecta: false,
             },
           ],
@@ -250,28 +271,32 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Cuál elemento fortalece principalmente las estrategias de comunicación <em>online</em> organizacional?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'Eliminación de contenidos utilizados para informar a usuarios digitales.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Gestión organizada de información relevante para públicos específicos.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Sustitución de interacción digital por mecanismos exclusivamente presenciales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Reducción permanente de la visibilidad de contenidos publicados.',
               esCorrecta: false,
             },
           ],
@@ -281,19 +306,33 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué función cumple un <em>marketplace</em> dentro del comercio electrónico actual?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Reemplazar buscadores utilizados para localizar información digital disponible.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Gestionar únicamente contenidos internos de organizaciones comerciales digitales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Integrar vendedores y compradores dentro de misma plataforma digital.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Almacenar archivos requeridos para funcionamiento de sitios web.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -302,18 +341,32 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Por qué resulta importante utilizar <em>marketplace</em> para exhibir productos digitalmente?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Porque disminuye disponibilidad de información para potenciales compradores digitales.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Porque elimina interacción comercial entre vendedores y consumidores participantes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Porque amplía visibilidad comercial dentro de entornos digitales compartidos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Porque sustituye completamente plataformas utilizadas para comercio electrónico.',
               esCorrecta: false,
             },
           ],
@@ -323,19 +376,33 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué función principal cumplen los buscadores dentro del entorno <em>web</em>?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Almacenar contenidos utilizados por plataformas de comercio electrónico digital.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Facilitar localización de información mediante consultas realizadas por usuarios.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Gestionar dominios utilizados para identificar sitios web empresariales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Sustituir aplicaciones utilizadas para administrar contenidos digitales comerciales.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -344,18 +411,32 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué permite el servicio <em>hosting</em> dentro de un sitio <em>web</em>?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Identificar organizaciones mediante nombres utilizados dentro de internet actualmente.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Facilitar campañas desarrolladas mediante correo electrónico empresarial digital.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Mantener disponibles contenidos digitales publicados para usuarios conectados.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Organizar resultados mostrados por buscadores durante consultas realizadas.',
               esCorrecta: false,
             },
           ],
@@ -364,19 +445,31 @@ export default {
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Permitir identificación y acceso sencillo a sitios web digitales.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Almacenar contenidos requeridos para funcionamiento de páginas empresariales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Gestionar procesos comerciales desarrollados mediante plataformas especializadas digitales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Organizar campañas promocionales utilizando mecanismos de comunicación electrónica.',
               esCorrecta: false,
             },
           ],
@@ -386,19 +479,33 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            '¿Qué aporte realizan plataformas utilizadas dentro del comercio electrónico actualmente?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Restringir publicación de contenidos utilizados para exhibir productos digitales..',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Facilitar gestión organizada de información y recursos comerciales digitales',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sustituir completamente dominios empleados para identificar sitios web.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Eliminar acceso de usuarios a contenidos publicados mediante internet.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -407,18 +514,207 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            '¿Qué elemento facilita navegación organizada dentro de anatomía web estructurada?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Dominio utilizado para identificar organizaciones dentro de internet actualmente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                '<em>Hosting</em> encargado de almacenar contenidos digitales publicados permanentemente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Menú navegación que conecta secciones disponibles para usuarios digitales.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Buscador empleado para localizar información externa al sitio web.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Qué propósito tiene SEO dentro de la visibilidad digital organizacional?',
+          imagen: '@/assets/actividad/imagen1.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Facilitar almacenamiento permanente de contenidos publicados mediante internet actualmente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Incrementar visibilidad de contenidos mediante resultados de buscadores digitales.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Gestionar exclusivamente correos electrónicos enviados a usuarios registrados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Sustituir plataformas utilizadas para administrar comercio electrónico empresarial.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Cuál función caracteriza principalmente las acciones desarrolladas mediante SEM actualmente?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Organizar estructura interna de páginas utilizadas para exhibición digital.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Facilitar promoción de contenidos dentro de buscadores utilizados digitalmente.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Almacenar información requerida para funcionamiento continuo de sitios web.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Identificar organizaciones mediante nombres asociados a dominios comerciales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Qué medio utiliza <em>email marketing</em> para compartir información comercial digital?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Buscadores empleados para localizar información publicada mediante internet actualmente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Plataformas destinadas exclusivamente a exhibición de productos digitales comerciales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Correo electrónico utilizado para comunicar contenidos a usuarios específicos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Servicios <em>hosting</em> encargados del almacenamiento de contenidos empresariales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Qué beneficio aporta <em>email marketing</em> a organizaciones presentes digitalmente actualmente?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Eliminar interacción establecida entre usuarios y organizaciones mediante internet.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Facilitar comunicación directa mediante distribución organizada de información.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sustituir mecanismos utilizados para localizar contenidos mediante buscadores.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Reemplazar plataformas digitales utilizadas para exhibición de productos comerciales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Cómo contribuye lenguaje web a procesos comerciales desarrollados digitalmente actualmente?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Facilita acceso, organización y visibilidad de contenidos publicados digitalmente.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Limita interacción entre usuarios y organizaciones presentes en internet.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sustituye completamente herramientas utilizadas dentro del comercio electrónico actual.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Elimina necesidad de comunicación <em>online</em> en entornos comerciales digitales.',
               esCorrecta: false,
             },
           ],
