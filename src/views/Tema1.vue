@@ -57,7 +57,7 @@
         .tarjeta.bg-color-4.p-4.mb-5
           .row.justify-content-around.align-items-center
             .col-auto.position-relative
-              img.pst-2.d-none.d-lg-block(src="@/assets/curso/common/1.svg")
+              img.d-none.d-lg-block(src="@/assets/curso/common/1.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
