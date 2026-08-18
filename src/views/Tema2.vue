@@ -131,8 +131,8 @@
               p.mb-0 Lo invitamos a consultar el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que explica el concepto de marketplace como un entorno de comercio digital donde compradores y vendedores interactúan para realizar transacciones comerciales. 
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=UAlKxl86Xlg " target="_blank")
-                span Ir al recurso
-                i.fas.fa-file-download
+                span.bg-color-13 Ir al recurso
+                i.fas.fa-video.bg-color-13
 
     .bg-fondo-1.bg-full-width
       .px-4.px-lg-5

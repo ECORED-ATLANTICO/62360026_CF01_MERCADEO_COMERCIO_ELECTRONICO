@@ -65,8 +65,8 @@
                   p.mb-0 Lo invitamos a ver el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que presenta una visión general del comercio electrónico (e-commerce), abordando su papel en la distribución, promoción, venta y comercialización de productos y servicios mediante internet.  
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=KM-RhabB6qs" target="_blank")
-                    span Ir al recurso
-                    i.fas.fa-file-download
+                    span.bg-color-13 Ir al recurso
+                    i.fas.fa-video.bg-color-13
 
         separador
         
