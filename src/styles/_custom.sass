@@ -69,16 +69,125 @@ figcaption, table caption
   margin-inline: -3.3rem
 .bg-fondo
   &-1
-    //background-image: url(../assets/curso/bg/3.svg)
+    background-image: url(../assets/curso/common/bg1.png)
+  &-2
+    background-image: url(../assets/curso/common/bg4.png)
+    background-size: cover
+  &-3
+    background-image: url(../assets/curso/common/bg7.png)
+    background-size: cover
+  &-4
+    background-image: url(../assets/curso/common/bg2.png)
+    background-size: cover
+  &-5
+    background-image: url(../assets/curso/common/bg3.png)
+    background-size: cover
+  &-6
+    background-image: url(../assets/curso/common/bg5.png)
+    background-size: cover
+  &-7
+    background-image: url(../assets/curso/common/bg6.png)
+    background-size: cover
 .bg-color
   &-1
-    background-color: $color-primario
+    background-color: #B6EBF3 !important
+  &-2
+    background-color: #EDFAFC
+  &-3
+    background-color: #F3ECFD !important
+  &-4
+    background-color: #FFFAE5
+  &-5
+    background-color: #FFCA00
+  &-6
+    background-color: #843BEB
+  &-7
+    background-color: #FFF9E2 !important
+  &-8
+    background-color: #F6F6F6
+  &-9
+    background-color: #F8DBFD
+  &-white
+    background-color: white
 
 
 
+/////////IMG_100%_CAJON_MEDIO/////////
+.pst
+  position: relative
+  z-index: 2
+.banner-text
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 20px;
+  border-radius: 10px
+  padding: 20px 30px
+  margin-top: -60px
+  @media screen and (max-width: $bp-max-sm)
+    margin-top: -10px
 
+.pst-2
+  position: absolute
+  top: -53px
+  right: 22px
 
+  @media screen and (max-width: $bp-max-lg)
+    right: 0
 
+//CLASES TITULOS//
+.titulo-con-imagen
+  display: flex
+  align-items: center
+  position: relative
+.titulo-con-imagen__fondo
+  background-color: #CEB1F7
+  border-radius: 20px 0 20px 20px
+  padding: 10px 20px
+  display: inline-flex
+  align-items: center
+.titulo-con-imagen__imagen
+  position: absolute
+  left: 0px
+  width: 50px
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 50px
+
+//////////////CUSTOM TABS-A/////////////
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+  background-color: #FFD256
+  color: $color-sistema-texto
+.tabs-a.color-acento-botones .tabs-a__tab__selected:before 
+  background-color: #FFD256
+.tabs-a__tab
+  background-color: #F1F6FF
+.tarjeta.color-acento-botones--borde
+  background-color: #E2E7F7
+  border: solid 4px #E2E7F7
+.tabs-a.color-acento-botones .tabs-a__tab:hover, .tabs-a.color-acento-botones .tabs-a__tab:active, .tabs-a.color-acento-botones .tabs-a__tab:focus 
+    background-color: #FFD256
+    color: $color-sistema-texto
+////////////AJUSTE TAMAÑO CONTERNEDOR IZQUIERO TABS-A//////////
+.tabs-a
+  @media (min-width: 1200px) 
+    .row
+      .col-xl-3 
+        flex: 0 0 auto
+        width: 38%
+      .col-xl-9
+        flex: 0 0 auto
+        width: 62%
+  @media (min-width: 992px) 
+    .row
+      .col-lg-4 
+        flex: 0 0 auto
+        width: 40%
+      .col-lg-8 
+        flex: 0 0 auto
+        width: 60%
+
+.boton.color-acento-botones *
+  color: $color-sistema-texto
 
 /**************************************************************/
 /*Media Queries*/  
