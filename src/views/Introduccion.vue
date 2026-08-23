@@ -16,7 +16,7 @@
       .col-lg-8
         p(data-aos="fade-right") El comercio electrónico constituye uno de los pilares fundamentales de la transformación digital de los procesos comerciales, permitiendo que organizaciones de diferentes tamaños interactúen con sus clientes mediante entornos digitales; su comprensión facilita la identificación de herramientas, aplicaciones y dinámicas que intervienen en la exhibición y comercialización de productos en internet.
         .cajon.color-acento-botones.p-4
-          p.mb-0 Este componente aborda los conceptos esenciales del comercio electrónico, la comunicación online y el lenguaje web, mediante explicaciones técnicas, ejemplos empresariales y casos aplicados. A través de un enfoque estratégico y contextualizado, el aprendiz reconocerá los elementos que intervienen en los ecosistemas digitales y su relación con la exhibición de productos en entornos comerciales electrónicos.
+          p.mb-0 Este componente aborda los conceptos esenciales del comercio electrónico, la comunicación <em>online</em> y el lenguaje web, mediante explicaciones técnicas, ejemplos empresariales y casos aplicados. A través de un enfoque estratégico y contextualizado, el aprendiz reconocerá los elementos que intervienen en los ecosistemas digitales y su relación con la exhibición de productos en entornos comerciales electrónicos.
 
 </template>
 

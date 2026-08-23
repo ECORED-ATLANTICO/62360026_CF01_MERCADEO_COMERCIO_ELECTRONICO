@@ -115,7 +115,7 @@
     separador
     
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.2 Hosting
+      h2 3.2 <em>Hosting</em>
     
     .bg-fondo-1.bg-full-width
       .px-4.px-lg-5
@@ -124,14 +124,14 @@
             figure
               img(src="@/assets/curso/tema3/6.png", data-aos="zoom-in")
           .col-lg-8
-            p El hosting corresponde al servicio que permite almacenar y mantener disponibles los contenidos de un sitio web dentro de internet, su función principal consiste en proporcionar los recursos tecnológicos necesarios para que páginas, imágenes, documentos y demás elementos digitales puedan ser consultados por los usuarios cuando acceden a un entorno web.
+            p El <em>hosting</em> corresponde al servicio que permite almacenar y mantener disponibles los contenidos de un sitio web dentro de internet, su función principal consiste en proporcionar los recursos tecnológicos necesarios para que páginas, imágenes, documentos y demás elementos digitales puedan ser consultados por los usuarios cuando acceden a un entorno web.
             .bg-fondo-3.tarjeta.px-5.py-3
-              p.mb-0 La disponibilidad permanente de los contenidos digitales depende de la existencia de servicios de hosting capaces de gestionar la información almacenada. Gracias a estos servicios, las organizaciones pueden publicar información, exhibir productos y mantener operativos sus espacios digitales. Esta capacidad resulta fundamental para garantizar el acceso continuo a los contenidos utilizados dentro de los procesos de comercio electrónico.
+              p.mb-0 La disponibilidad permanente de los contenidos digitales depende de la existencia de servicios de <em>hosting</em> capaces de gestionar la información almacenada. Gracias a estos servicios, las organizaciones pueden publicar información, exhibir productos y mantener operativos sus espacios digitales. Esta capacidad resulta fundamental para garantizar el acceso continuo a los contenidos utilizados dentro de los procesos de comercio electrónico.
 
         .titulo-con-imagen.mb-5(data-aos="fade-right")
           .titulo-con-imagen__fondo
             img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
-            h3.titulo-con-imagen__texto Funciones del hosting
+            h3.titulo-con-imagen__texto Funciones del <em>hosting</em>
         
         .bg-fondo-slider.tarjeta.mb-5
           .p-4.p-lg-5
@@ -142,31 +142,31 @@
                     img(src='@/assets/curso/tema3/7.png', alt='Imagen de acompañamiento')
                 .col-lg-8.mb-4.mb-md-0
                   h4 Almacenamiento
-                  p.mb-0 El hosting proporciona el espacio donde se almacenan los archivos, imágenes, bases de datos y demás recursos que conforman un sitio web. Esta función permite conservar la información organizada y disponible, garantizando que los usuarios puedan acceder a los contenidos digitales y que el sitio web funcione correctamente.
+                  p.mb-0 El <em>hosting</em> proporciona el espacio donde se almacenan los archivos, imágenes, bases de datos y demás recursos que conforman un sitio web. Esta función permite conservar la información organizada y disponible, garantizando que los usuarios puedan acceder a los contenidos digitales y que el sitio web funcione correctamente.
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-lg-4.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema3/8.png', alt='Imagen de acompañamiento')
                 .col-lg-8.mb-4.mb-md-0
                   h4 Disponibilidad
-                  p.mb-0 El hosting mantiene el sitio web accesible para los usuarios durante el mayor tiempo posible, facilitando el acceso continuo a la información, productos y servicios publicados. Esta función contribuye a ofrecer una experiencia de navegación estable y confiable, permitiendo que los contenidos digitales permanezcan disponibles desde cualquier lugar con conexión a internet.
+                  p.mb-0 El <em>hosting</em> mantiene el sitio web accesible para los usuarios durante el mayor tiempo posible, facilitando el acceso continuo a la información, productos y servicios publicados. Esta función contribuye a ofrecer una experiencia de navegación estable y confiable, permitiendo que los contenidos digitales permanezcan disponibles desde cualquier lugar con conexión a internet.
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-lg-4.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema3/9.png', alt='Imagen de acompañamiento')
                 .col-lg-8.mb-4.mb-md-0
                   h4 Infraestructura tecnológica
-                  p.mb-0 El hosting proporciona la infraestructura tecnológica necesaria para el funcionamiento de un sitio web, incluyendo recursos de almacenamiento, procesamiento, conectividad y seguridad. Estos elementos favorecen la estabilidad, el rendimiento y la administración de la plataforma, garantizando el adecuado funcionamiento de los servicios digitales.
+                  p.mb-0 El <em>hosting</em> proporciona la infraestructura tecnológica necesaria para el funcionamiento de un sitio web, incluyendo recursos de almacenamiento, procesamiento, conectividad y seguridad. Estos elementos favorecen la estabilidad, el rendimiento y la administración de la plataforma, garantizando el adecuado funcionamiento de los servicios digitales.
               .row.justify-content-center.align-items-center.p-3.p-lg-4
                 .col-lg-4.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema3/10.png', alt='Imagen de acompañamiento')
                 .col-lg-8.mb-4.mb-md-0
                   h4 Publicación de contenidos
-                  p.mb-0 El hosting permite publicar y mantener disponibles en internet los contenidos que conforman un sitio web, como información institucional, productos, servicios e imágenes. Esta función favorece la permanencia y actualización de la información digital, facilitando que los usuarios consulten los contenidos de forma oportuna y permanente.
+                  p.mb-0 El <em>hosting</em> permite publicar y mantener disponibles en internet los contenidos que conforman un sitio web, como información institucional, productos, servicios e imágenes. Esta función favorece la permanencia y actualización de la información digital, facilitando que los usuarios consulten los contenidos de forma oportuna y permanente.
     
     .cajon.color-acento-botones.bg-color-7.p-4.mb-5
-      p.mb-0 Desde una perspectiva estratégica, el hosting constituye uno de los componentes esenciales para la presencia digital de cualquier organización. Su adecuada selección contribuye a mantener la disponibilidad de los contenidos, facilitar el acceso de los usuarios y respaldar las actividades asociadas a la exhibición de productos y servicios en internet.
+      p.mb-0 Desde una perspectiva estratégica, el <em>hosting</em> constituye uno de los componentes esenciales para la presencia digital de cualquier organización. Su adecuada selección contribuye a mantener la disponibilidad de los contenidos, facilitar el acceso de los usuarios y respaldar las actividades asociadas a la exhibición de productos y servicios en internet.
     
     .row.justify-content-center
       .col-lg-8
@@ -176,7 +176,7 @@
               img.d-none.d-lg-flex(src="@/assets/curso/common/6.png").mx-auto
             .col-lg
               h5 Pregunta de aplicación
-              p.mb-0 ¿Cómo contribuye un servicio de hosting al funcionamiento de un sitio web utilizado para exhibir productos?
+              p.mb-0 ¿Cómo contribuye un servicio de <em>hosting</em> al funcionamiento de un sitio web utilizado para exhibir productos?
     
     separador
     
@@ -274,7 +274,7 @@
 
             tbody
               tr.bg-color-white
-                td Administración 
+                td Administración digital
                 td Facilita el control de diferentes elementos dentro de entornos comerciales electrónicos.
 
               tr.bg-color-8
@@ -465,13 +465,13 @@
     separador
     
     #t_3_8.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.8 Email marketing
+      h2 3.8 <em>Email marketing</em>
     
     img(src="@/assets/curso/tema3/21.png", alt="Imagen decorativa")
     
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-lg-10(data-aos="fade-up")
-        p.banner-text El email marketing corresponde a una forma de comunicación digital que utiliza el correo electrónico para compartir información con usuarios y públicos de interés, su aplicación permite difundir contenidos relacionados con productos, servicios y actividades organizacionales mediante mensajes estructurados y dirigidos a destinatarios específicos; esta herramienta constituye uno de los recursos más utilizados dentro de los procesos de comunicación digital.
+        p.banner-text El <em>email marketing</em> corresponde a una forma de comunicación digital que utiliza el correo electrónico para compartir información con usuarios y públicos de interés, su aplicación permite difundir contenidos relacionados con productos, servicios y actividades organizacionales mediante mensajes estructurados y dirigidos a destinatarios específicos; esta herramienta constituye uno de los recursos más utilizados dentro de los procesos de comunicación digital.
     
     .bg-fondo-1.bg-full-width
       .px-4.px-lg-5
@@ -482,10 +482,10 @@
           .col-lg-8
             p La utilización del correo electrónico como canal de comunicación facilita la distribución de información de manera organizada y directa, gracias a este mecanismo, las organizaciones pueden mantener contacto con sus usuarios y compartir contenidos relevantes relacionados con sus actividades comerciales; esta capacidad favorece la circulación de información y fortalece los procesos de comunicación dentro de los entornos digitales.
             .bg-fondo-3.tarjeta.px-5.py-3
-              p.mb-0 El lenguaje web reúne los componentes técnicos y comunicativos que hacen posible la publicación, organización, acceso y visibilidad de los contenidos en internet. Elementos como los buscadores, el hosting, el dominio, las plataformas y la anatomía web permiten estructurar espacios digitales funcionales en los que los usuarios pueden localizar información, navegar entre contenidos y consultar productos y servicios.
+              p.mb-0 El lenguaje web reúne los componentes técnicos y comunicativos que hacen posible la publicación, organización, acceso y visibilidad de los contenidos en internet. Elementos como los buscadores, el <em>hosting</em>, el dominio, las plataformas y la anatomía web permiten estructurar espacios digitales funcionales en los que los usuarios pueden localizar información, navegar entre contenidos y consultar productos y servicios.
 
         .cajon.color-acento-contenido.bg-color-3.p-4.mb-5
-          p.mb-0 Por su parte, las acciones de SEO, SEM y email marketing contribuyen a ampliar el alcance de la información y a fortalecer la comunicación con públicos específicos. La articulación de estos recursos permite construir una presencia digital organizada, accesible y coherente con los objetivos comerciales. Comprender su función ayuda a reconocer que la efectividad de un sitio web depende tanto de su infraestructura tecnológica como de la forma en que organiza, comunica y posiciona sus contenidos.
+          p.mb-0 Por su parte, las acciones de SEO, SEM y <em>email marketing</em> contribuyen a ampliar el alcance de la información y a fortalecer la comunicación con públicos específicos. La articulación de estos recursos permite construir una presencia digital organizada, accesible y coherente con los objetivos comerciales. Comprender su función ayuda a reconocer que la efectividad de un sitio web depende tanto de su infraestructura tecnológica como de la forma en que organiza, comunica y posiciona sus contenidos.
 
     .row.justify-content-center
       .col-lg-8
@@ -505,7 +505,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h5 Caso de estudio: fortalecimiento de la presencia digital de una empresa
-              p.mb-0 Lo invitamos a ver el siguiente casa de estudio de la empresa ficticia Café Montaña, dedicada a la producción y comercialización de café especial, comercializaba sus productos únicamente a través de un punto de venta físico.  
+              p.mb-0 Lo invitamos a consultar el siguiente caso de estudio de la empresa ficticia Café Montaña, dedicada a la producción y comercialización de café especial, comercializaba sus productos únicamente a través de un punto de venta físico.  
             .col-sm-auto
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_01_Caso_de_estudio_fortalecimiento_de_la_presencia_digital_de_una_empresa.pdf')" target="_blank" type="application/pdf")
                 span.bg-color-13 Ir al recurso

@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Tendencias del comercio electrónico',
     Description:
-      'Este componente desarrolla los fundamentos del comercio electrónico, la comunicación online y el lenguaje web, proporcionando los conocimientos necesarios para comprender los elementos que intervienen en la exhibición de productos dentro de entornos digitales y su relación con los procesos de comercialización electrónica.',
+      'Este componente desarrolla los fundamentos del comercio electrónico, la comunicación <em>online</em> y el lenguaje web, proporcionando los conocimientos necesarios para comprender los elementos que intervienen en la exhibición de productos dentro de entornos digitales y su relación con los procesos de comercialización electrónica.',
     imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
@@ -318,7 +318,7 @@ export default {
     },
     {
       referencia:
-        'Vela Reyna, J. B. (2024). E-commerce: experiencia, seguridad, confianza y satisfacción del cliente. Investigación Administrativa, 53(133).',
+        'Vela Reyna, J. B. (2024). <em>E-commerce</em>: experiencia, seguridad, confianza y satisfacción del cliente. Investigación Administrativa, 53(133).',
       link: 'https://www.scielo.org.mx/scielo.php?pid=S2448-76782024000100005&script=sci_arttext',
     },
   ],
@@ -343,18 +343,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Nicolas Cruz',
+          cargo: 'Experto temático',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
-        },
-        {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'María Fernanda Morales Angulo',
+          cargo: 'Evaluador instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
@@ -363,12 +358,12 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Jesus Antonio Vecino Valero',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Carlos Andrés Diaz Pinto',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },

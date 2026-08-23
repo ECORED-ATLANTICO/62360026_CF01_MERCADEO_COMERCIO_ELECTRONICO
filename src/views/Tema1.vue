@@ -62,7 +62,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h5 Visión general del comercio electrónico
-                  p.mb-0 Lo invitamos a ver el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que presenta una visión general del comercio electrónico (e-commerce), abordando su papel en la distribución, promoción, venta y comercialización de productos y servicios mediante internet.  
+                  p.mb-0 Lo invitamos a consultar el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que presenta una visión general del comercio electrónico (<em>e-commerce</em>), abordando su papel en la distribución, promoción, venta y comercialización de productos y servicios mediante internet.  
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=KM-RhabB6qs" target="_blank")
                     span.bg-color-13 Ir al recurso
@@ -280,8 +280,8 @@
     
     separador
     
-    #t_1_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.5 Aplicaciones
+    #t_1_6.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 1.6 Aplicaciones
     
     img(src="@/assets/curso/tema1/15.png", alt="Imagen decorativa")
     

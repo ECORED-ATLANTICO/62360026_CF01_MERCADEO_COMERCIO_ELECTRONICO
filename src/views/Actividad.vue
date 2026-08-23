@@ -22,7 +22,7 @@ export default {
       tema: 'Reconociendo entornos digitales.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> identificar conceptos, características y aplicaciones del comercio electrónico, la comunicación online y el lenguaje web, mediante la resolución de preguntas de selección múltiple con única respuesta.',
+        '<b> Objetivo:</b> identificar conceptos, características y aplicaciones del comercio electrónico, la comunicación <em>online</em> y el lenguaje web, mediante la resolución de preguntas de selección múltiple con única respuesta.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -376,7 +376,7 @@ export default {
         {
           id: 11,
           texto:
-            '¿Qué función principal cumplen los buscadores dentro del entorno <em>web</em>?',
+            '¿Qué función principal cumplen los buscadores dentro del entorno web?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
@@ -411,7 +411,7 @@ export default {
         {
           id: 12,
           texto:
-            '¿Qué permite el servicio <em>hosting</em> dentro de un sitio <em>web</em>?',
+            '¿Qué permite el servicio <em>hosting</em> dentro de un sitio web?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
@@ -445,6 +445,7 @@ export default {
         },
         {
           id: 13,
+          texto: '¿Cuál es la finalidad principal de un dominio en internet?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
@@ -486,7 +487,7 @@ export default {
             {
               id: 'a',
               texto:
-                'Restringir publicación de contenidos utilizados para exhibir productos digitales..',
+                'Restringir publicación de contenidos utilizados para exhibir productos digitales.',
               esCorrecta: false,
             },
             {
