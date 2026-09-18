@@ -312,7 +312,7 @@
         p.mb-0(data-aos="fade-right") La organización estructurada de una página web facilita la localización de información y mejora la experiencia de navegación, elementos como encabezados, áreas de contenido, menús de navegación y espacios informativos permiten distribuir la información de manera coherente, favoreciendo la consulta de productos y servicios. Esta estructura contribuye a que los usuarios encuentren con facilidad los contenidos que buscan dentro de un entorno digital.
     
     .bg-fondo-2.tarjeta.px-5.py-3.mb-5
-      p.mb-0 La siguiente imagen interactiva presenta los principales elementos que conforman la anatomía de un sitio web. Al seleccionar cada punto de interacción, podrá conocer la función que cumple cada componente dentro de la estructura digital y su aporte a la organización de la información, la navegación y la experiencia del usuario. 
+      p.mb-0 La siguiente información a continuación detalla los principales elementos que conforman la anatomía de un sitio web. A través de este contenido, podrá conocer la función que cumple cada componente dentro de la estructura digital y su aporte a la organización de la información, la navegación y la experiencia del usuario.  
     
     .row.justify-content-center
       .col-lg-8
@@ -505,11 +505,11 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h5 Caso de estudio: fortalecimiento de la presencia digital de una empresa
-              p.mb-0 Lo invitamos a consultar el siguiente caso de estudio de la empresa ficticia Café Montaña, dedicada a la producción y comercialización de café especial, comercializaba sus productos únicamente a través de un punto de venta físico.  
+              p.mb-0 Lo invitamos a consultar el siguiente caso de estudio de la empresa ficticia Café Montaña, dedicada a la producción y comercialización de café especial, comercializaba sus productos únicamente a través de un punto de venta físico. Se invita a que acceda al material: Anexo_01_Caso_De_Estudio.pdf.  
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_01_Caso_de_estudio_fortalecimiento_de_la_presencia_digital_de_una_empresa.pdf')" target="_blank" type="application/pdf")
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_01_Caso_De_Estudio.pdf')" target="_blank" type="application/pdf")
                 span.bg-color-13 Ir al recurso
-                i.fas.fa-link.bg-color-13
+               
 
     .row.justify-content-center
       .col-lg-8

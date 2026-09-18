@@ -132,7 +132,6 @@
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=UAlKxl86Xlg " target="_blank")
                 span.bg-color-13 Ir al recurso
-                i.fas.fa-video.bg-color-13
 
     .bg-fondo-1.bg-full-width
       .px-4.px-lg-5
@@ -164,9 +163,9 @@
                   h2(data-aos="fade-left").mb-4 Pódcast
                   
                   TarjetaAudio.color-secundario.bg-color-white.mb-3(
-                    texto="Pendiente titulo"
+                    texto="<span style='font-style: normal !important;'>Comunicación online estratégica"
                     tiempo
-                    :audio="require_src('../assets/curso/podcast/podcast1.mp3')"
+                    :audio="require_src('../assets/curso/podcast/podcast2.mp3')"
                   )
 
         .row.justify-content-center.align-items-center.mb-5
