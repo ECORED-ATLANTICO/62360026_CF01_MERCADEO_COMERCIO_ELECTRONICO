@@ -505,7 +505,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h5 Caso de estudio: fortalecimiento de la presencia digital de una empresa
-              p.mb-0 Lo invitamos a consultar el siguiente caso de estudio de la empresa ficticia Café Montaña, dedicada a la producción y comercialización de café especial, comercializaba sus productos únicamente a través de un punto de venta físico. Se invita a que acceda al material: Anexo_01_Caso_De_Estudio.pdf.  
+              p.mb-0 Lo invitamos a consultar el siguiente caso de estudio de la empresa ficticia Café Montaña, dedicada a la producción y comercialización de café especial, comercializaba sus productos únicamente a través de un punto de venta físico. Se invita a que acceda al material:  
             .col-sm-auto
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_01_Caso_De_Estudio.pdf')" target="_blank" type="application/pdf")
                 span.bg-color-13 Ir al recurso
