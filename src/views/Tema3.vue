@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Lenguaje WEB
+      h1 Lenguaje web
     
     .bg-fondo-1.bg-full-width
       .px-4.px-lg-5
@@ -37,14 +37,14 @@
             :style="{'background-image': `url(${require_src('@/assets/curso/tema3/3.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Los buscadores son sistemas diseñados para localizar y organizar información disponible en internet, su función consiste en facilitar a los usuarios el acceso a contenidos digitales mediante consultas realizadas a través de palabras clave; gracias a estos mecanismos, es posible encontrar sitios web, productos, servicios y diferentes tipos de información alojados en la red de manera rápida y organizada.
+            p.mb-0 Los buscadores son sistemas diseñados para localizar y organizar información disponible en internet. Su función consiste en facilitar a los usuarios el acceso a contenidos digitales mediante consultas realizadas a través de palabras clave; gracias a estos mecanismos, es posible encontrar sitios web, productos, servicios y diferentes tipos de información alojados en la red de manera rápida y organizada.
         
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-4.mb-3.mb-lg-0.order-lg-2
         figure
           img(src="@/assets/curso/tema3/4.png", data-aos="zoom-in")
       .col-lg-8.order-lg-1
-        p.mb-0(data-aos="fade-right") El funcionamiento de los buscadores se basa en procesos de recopilación, clasificación y presentación de información, estos sistemas analizan permanentemente los contenidos disponibles en internet para construir índices que permitan responder a las consultas realizadas por los usuarios. Como resultado, facilitan la localización de información relevante dentro de grandes volúmenes de contenido digital.
+        p.mb-0(data-aos="fade-right") El funcionamiento de los buscadores se basa en procesos de recopilación, clasificación y presentación de información. Estos sistemas analizan permanentemente los contenidos disponibles en internet para construir índices que permitan responder a las consultas realizadas por los usuarios. Como resultado, facilitan la localización de información relevante dentro de grandes volúmenes de contenido digital.
     
     .row.justify-content-center
       .col-lg-10
@@ -53,7 +53,6 @@
           span Características de los buscadores
         .tabla-a.color-secundario.mb-5.tbl
           table
-            caption Nota. SENA, (2026).
             thead
               tr
                 th.bg-color-9 Característica
@@ -124,7 +123,7 @@
             figure
               img(src="@/assets/curso/tema3/6.png", data-aos="zoom-in")
           .col-lg-8
-            p El <em>hosting</em> corresponde al servicio que permite almacenar y mantener disponibles los contenidos de un sitio web dentro de internet, su función principal consiste en proporcionar los recursos tecnológicos necesarios para que páginas, imágenes, documentos y demás elementos digitales puedan ser consultados por los usuarios cuando acceden a un entorno web.
+            p El <em>hosting</em> corresponde al servicio que permite almacenar y mantener disponibles los contenidos de un sitio web dentro de internet. Su función principal consiste en proporcionar los recursos tecnológicos necesarios para que páginas, imágenes, documentos y demás elementos digitales puedan ser consultados por los usuarios cuando acceden a un entorno web.
             .bg-fondo-3.tarjeta.px-5.py-3
               p.mb-0 La disponibilidad permanente de los contenidos digitales depende de la existencia de servicios de <em>hosting</em> capaces de gestionar la información almacenada. Gracias a estos servicios, las organizaciones pueden publicar información, exhibir productos y mantener operativos sus espacios digitales. Esta capacidad resulta fundamental para garantizar el acceso continuo a los contenidos utilizados dentro de los procesos de comercio electrónico.
 
@@ -190,7 +189,7 @@
             figure
               img(src="@/assets/curso/tema3/11.png", data-aos="zoom-in")
           .col-lg-8
-            p.mb-0(data-aos="fade-right") El dominio corresponde al nombre único que identifica un sitio web dentro de internet y permite a los usuarios acceder a sus contenidos de forma sencilla, su función consiste en reemplazar direcciones numéricas complejas por denominaciones más fáciles de recordar y utilizar. Gracias a esta característica, los dominios facilitan la localización de páginas web y fortalecen la identidad digital de organizaciones, productos y servicios.
+            p.mb-0(data-aos="fade-right") El dominio corresponde al nombre único que identifica un sitio web dentro de internet y permite a los usuarios acceder a sus contenidos de forma sencilla. Su función consiste en reemplazar direcciones numéricas complejas por denominaciones más fáciles de recordar y utilizar. Gracias a esta característica, los dominios facilitan la localización de páginas web y fortalecen la identidad digital de organizaciones, productos y servicios.
         
         .bg-fondo-2.tarjeta.px-5.py-3.mb-5
           p.mb-0 La utilización de dominios permite establecer una referencia clara para la presencia digital de una organización. Cuando los usuarios realizan consultas en internet, el dominio actúa como un elemento de identificación que facilita el acceso a la información publicada. Esta condición contribuye a mejorar la visibilidad de los contenidos y favorece el reconocimiento de la organización dentro del entorno interactivo.
@@ -266,7 +265,6 @@
           span Aportes de las plataformas al comercio electrónico
         .tabla-a.color-secundario.tbl
           table
-            caption Nota. SENA, (2026).
             thead
               tr
                 th.bg-color-9 Aporte
@@ -309,10 +307,10 @@
         figure
           img(src="@/assets/curso/tema3/16.png", data-aos="zoom-in")
       .col-lg-8
-        p.mb-0(data-aos="fade-right") La organización estructurada de una página web facilita la localización de información y mejora la experiencia de navegación, elementos como encabezados, áreas de contenido, menús de navegación y espacios informativos permiten distribuir la información de manera coherente, favoreciendo la consulta de productos y servicios. Esta estructura contribuye a que los usuarios encuentren con facilidad los contenidos que buscan dentro de un entorno digital.
+        p.mb-0(data-aos="fade-right") La organización estructurada de una página web facilita la localización de información y mejora la experiencia de navegación. Elementos como encabezados, áreas de contenido, menús de navegación y espacios informativos permiten distribuir la información de manera coherente, favoreciendo la consulta de productos y servicios. Esta estructura contribuye a que los usuarios encuentren con facilidad los contenidos que buscan dentro de un entorno digital.
     
     .bg-fondo-2.tarjeta.px-5.py-3.mb-5
-      p.mb-0 La siguiente información a continuación detalla los principales elementos que conforman la anatomía de un sitio web. A través de este contenido, podrá conocer la función que cumple cada componente dentro de la estructura digital y su aporte a la organización de la información, la navegación y la experiencia del usuario.  
+      p.mb-0 La siguiente información detalla los principales elementos que conforman la anatomía de un sitio web. A través de este contenido, podrá conocer la función que cumple cada componente dentro de la estructura digital y su aporte a la organización de la información, la navegación y la experiencia del usuario.  
     
     .row.justify-content-center
       .col-lg-8
@@ -376,7 +374,7 @@
                   img(src="@/assets/curso/tema3/19.png", data-aos="zoom-in")
               .col-lg-7
                 .bg-color-11.px-5.py-4
-                  p.mb-0 SEO (<em>Search Engine Optimization</em>) corresponde al conjunto de acciones orientadas a favorecer la visibilidad de los contenidos dentro de los resultados presentados por los buscadores, su propósito consiste en facilitar que los usuarios encuentren información relacionada con productos, servicios u organizaciones cuando realizan consultas en internet; este elemento se ha convertido en un componente relevante para la presencia digital de los sitios web.
+                  p.mb-0 SEO (<em>Search Engine Optimization</em>) corresponde al conjunto de acciones orientadas a favorecer la visibilidad de los contenidos dentro de los resultados presentados por los buscadores. Su propósito consiste en facilitar que los usuarios encuentren información relacionada con productos, servicios u organizaciones cuando realizan consultas en internet; este elemento se ha convertido en un componente relevante para la presencia digital de los sitios web.
             .bg-color-10.px-5.py-4
               p.mb-0 La aplicación de SEO contribuye a mejorar la localización de contenidos dentro de los motores de búsqueda, cuando la información está organizada de manera adecuada, los buscadores pueden identificar con mayor facilidad los contenidos disponibles y presentarlos a los usuarios durante sus consultas. Esta condición favorece la accesibilidad de la información y fortalece la visibilidad digital de las organizaciones.
         
@@ -429,7 +427,6 @@
           span Aportes de SEM a la visibilidad digital
         .tabla-a.color-secundario.tbl
           table
-            caption Nota. SENA, (2026).
             thead
               tr
                 th.bg-color-9 Aporte

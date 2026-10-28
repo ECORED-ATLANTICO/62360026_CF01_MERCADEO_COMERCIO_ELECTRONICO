@@ -62,10 +62,10 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h5 Visión general del comercio electrónico
-                  p.mb-0 Lo invitamos a consultar el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que presenta una visión general del comercio electrónico (<em>e-commerce</em>), abordando su papel en la distribución, promoción, venta y comercialización de productos y servicios mediante internet.  
+                  p.mb-0 Lo invitamos a consultar el siguiente video por medio del cual podrá profundizar en la temática abordada. En él se presenta una visión general del comercio electrónico (<em>e-commerce</em>) y su papel en la distribución, promoción, venta y comercialización de productos y servicios mediante internet.  
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=KM-RhabB6qs" target="_blank")
-                    span.bg-color-13 Ir al recurso
+                    span.bg-color-13 Ir al video
 
         separador
         
@@ -128,7 +128,7 @@
           span Tipos de comercio electrónico 
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema1/9.png", alt="La figura 1 presenta las cuatro modalidades de comercio digital: B2C, donde una empresa vende directamente a consumidores; B2B, donde dos organizaciones realizan intercambios comerciales; C2C, donde consumidores comercian entre sí mediante plataformas digitales; y C2B, donde consumidores ofrecen productos, servicios o información a empresas. ")
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema1/9-1.png", alt="La figura 1 presenta las cuatro modalidades de comercio digital: B2C, donde una empresa vende directamente a consumidores; B2B, donde dos organizaciones realizan intercambios comerciales; C2C, donde consumidores comercian entre sí mediante plataformas digitales; y C2B, donde consumidores ofrecen productos, servicios o información a empresas. ")
-        figcaption Nota. SENA, (2026).
+        
 
     .row.justify-content-center
       .col-lg-8
@@ -166,7 +166,7 @@
               span Beneficios de las herramientas de comercio electrónico
             .tabla-a.color-secundario.mb-5.tbl
               table
-                caption Nota. SENA, (2026).
+                
                 thead
                   tr
                     th.bg-color-9 Beneficio
@@ -249,7 +249,7 @@
                 p.mb-0 Permite acceder a tiendas virtuales desde un espacio fijo. Su pantalla amplia facilita la consulta de catálogos, comparación de productos, gestión de pedidos y administración de tiendas en línea.
               .tarjeta.color-acento-botones--borde.p-4(titulo="Computador portátil")
                 h4 Computador portátil
-                p.mb-0 Ofrecen las mismas posibilidades de compra y gestión que un computador de escritorio, pero con mayor movilidad. Es utilizado para administrar tiendas virtuales, consultar productos y realizar compras desde diferentes lugares.
+                p.mb-0 Ofrece las mismas posibilidades de compra y gestión que un computador de escritorio, pero con mayor movilidad. Es utilizado para administrar tiendas virtuales, consultar productos y realizar compras desde diferentes lugares.
               .tarjeta.color-acento-botones--borde.p-4(titulo="Tableta")
                 h4 Tableta
                 p.mb-0 Su pantalla táctil facilita la navegación por tiendas virtuales y la consulta de catálogos. Es especialmente útil para visualizar productos, revisar sus características y realizar compras en línea.
@@ -305,8 +305,8 @@
           h5 Figura 2.
           span Funciones de las aplicaciones en comercio electrónico 
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema1/17.png", alt="La figura 2 presenta las funciones de las aplicaciones en comercio electrónico, organizadas en cuatro componentes: gestión de la información, actualización de contenidos, apoyo operativo e interacción digital. Estos elementos muestran cómo las aplicaciones contribuyen a administrar la información comercial, mantener vigente la oferta, apoyar las actividades operativas y fortalecer la comunicación entre las organizaciones y los usuarios dentro de los canales digitales.")
-        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema1/17.png", alt="La figura 2 presenta las funciones de las aplicaciones en comercio electrónico, organizadas en cuatro componentes: gestión de la información, actualización de contenidos, apoyo operativo e interacción digital. Estos elementos muestran cómo las aplicaciones contribuyen a administrar la información comercial, mantener vigente la oferta, apoyar las actividades operativas y fortalecer la comunicación entre las organizaciones y los usuarios dentro de los canales digitales.")
-        figcaption Nota. SENA, (2026).
+        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema1/17-1.png", alt="La figura 2 presenta las funciones de las aplicaciones en comercio electrónico, organizadas en cuatro componentes: gestión de la información, actualización de contenidos, apoyo operativo e interacción digital. Estos elementos muestran cómo las aplicaciones contribuyen a administrar la información comercial, mantener vigente la oferta, apoyar las actividades operativas y fortalecer la comunicación entre las organizaciones y los usuarios dentro de los canales digitales.")
+        
 
     .bg-fondo-1.bg-full-width
       .px-4.px-lg-5

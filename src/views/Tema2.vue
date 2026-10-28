@@ -71,7 +71,7 @@
             figure
               img(src="@/assets/curso/tema2/5.png", data-aos="zoom-in")
           .col-lg-8.order-lg-1
-            p.mb-0(data-aos="fade-right") El desarrollo de estrategias de comunicación <em>online</em> requiere identificar los objetivos comunicativos y establecer mecanismos adecuados para transmitir información relevante a los usuarios. La coherencia entre los mensajes emitidos y las características del público favorece una interacción más efectiva y fortalece los procesos de comunicación dentro de los entornos digitales, este enfoque permite optimizar los recursos utilizados en la difusión de contenidos.
+            p.mb-0(data-aos="fade-right") El desarrollo de estrategias de comunicación <em>online</em> requiere identificar los objetivos comunicativos y establecer mecanismos adecuados para transmitir información relevante a los usuarios. La coherencia entre los mensajes emitidos y las características del público favorece una interacción más efectiva y fortalece los procesos de comunicación dentro de los entornos digitales. Este enfoque permite optimizar los recursos utilizados en la difusión de contenidos.
 
         .titulo-con-imagen.mb-5(data-aos="fade-right")
           .titulo-con-imagen__fondo
@@ -84,7 +84,7 @@
               img(src="@/assets/curso/tema2/6.png", data-aos="zoom-in")
           .col-lg-8
             AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-12")
-              div(titulo="Objetivos comunicativos - Definen que se desea lograr con la comunicación")
+              div(titulo="Objetivos comunicativos – Definen qué se desea lograr con la comunicación")
                 p.ms-lg-5 Los objetivos comunicativos definen el propósito de los mensajes que una organización transmite mediante sus canales digitales. Su formulación orienta la planificación de las acciones de comunicación, facilita la selección de los medios adecuados y permite evaluar los resultados obtenidos. Establecer objetivos claros contribuye a fortalecer la relación con los usuarios, promover productos o servicios y apoyar el cumplimiento de las metas comerciales en entornos digitales.
               div(titulo="Gestión de contenidos – Organiza la información para mantenerla útil y actualizada")
                 p.ms-lg-5 La gestión de contenidos comprende la planificación, organización, actualización y publicación de la información difundida en los diferentes canales digitales. Una adecuada administración garantiza contenidos pertinentes, claros y actualizados, favoreciendo la calidad de la comunicación y la confianza de los usuarios. Además, facilita la difusión de información sobre productos, servicios y promociones de manera organizada y coherente con la estrategia de la organización.
@@ -116,9 +116,9 @@
         figure
           img(src="@/assets/curso/tema2/7.png", data-aos="zoom-in")
       .col-lg-8
-        p El <em>marketplace</em> corresponde a un entorno digital que facilita la interacción comercial entre múltiples vendedores y compradores dentro de una misma plataforma, su funcionamiento permite centralizar la oferta de productos y servicios, facilitando la consulta, comparación y acceso a diferentes alternativas comerciales por parte de los usuarios. Este modelo se ha consolidado como un mecanismo relevante dentro del comercio electrónico debido a su capacidad para integrar diferentes actores en un mismo espacio digital.
+        p El <em>marketplace</em> corresponde a un entorno digital que facilita la interacción comercial entre múltiples vendedores y compradores dentro de una misma plataforma. Su funcionamiento permite centralizar la oferta de productos y servicios, facilitando la consulta, comparación y acceso a diferentes alternativas comerciales por parte de los usuarios. Este modelo se ha consolidado como un mecanismo relevante dentro del comercio electrónico debido a su capacidad para integrar diferentes actores en un mismo espacio digital.
         .bg-fondo-3.tarjeta.px-5.py-3
-          p.mb-0 La estructura de un <em>marketplace</em> favorece la visibilidad de los productos mediante la agrupación de múltiples oferentes en una plataforma común, esta característica permite ampliar las posibilidades de exposición comercial y facilita a los usuarios la búsqueda de información relacionada con diversas categorías de productos. Como resultado, se genera un entorno que promueve la interacción comercial y la disponibilidad de opciones para los consumidores.
+          p.mb-0 La estructura de un <em>marketplace</em> favorece la visibilidad de los productos mediante la agrupación de múltiples oferentes en una plataforma común. Esta característica permite ampliar las posibilidades de exposición comercial y facilita a los usuarios la búsqueda de información relacionada con diversas categorías de productos. Como resultado, se genera un entorno que promueve la interacción comercial y la disponibilidad de opciones para los consumidores.
     
     .tarjeta.bg-color-4.p-4.mb-5
       .row.justify-content-around.align-items-center
@@ -127,8 +127,8 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h5 <em>marketplace</em>
-              p.mb-0 Lo invitamos a consultar el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que explica el concepto de <em>marketplace</em> como un entorno de comercio digital donde compradores y vendedores interactúan para realizar transacciones comerciales. 
+              h5 <em>Marketplace</em>
+              p.mb-0 Lo invitamos a consultar el siguiente video por medio del cual podrá profundizar en la temática abordada, el cual explica el concepto de <em>marketplace</em> como un entorno de comercio digital donde compradores y vendedores interactúan para realizar transacciones comerciales.
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=UAlKxl86Xlg " target="_blank")
                 span.bg-color-13 Ir al recurso
@@ -140,7 +140,7 @@
             :style="{'background-image': `url(${require_src('@/assets/curso/tema2/8.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Desde una perspectiva estratégica, el <em>marketplace</em> constituye un canal que contribuye al fortalecimiento de la presencia digital de las organizaciones, su utilización permite ampliar el alcance de los productos, facilitar la interacción con nuevos públicos y aprovechar infraestructuras digitales previamente consolidadas. Estas condiciones convierten al <em>marketplace</em> en una alternativa relevante para apoyar procesos de exhibición y comercialización dentro de entornos electrónicos.
+            p.mb-0 Desde una perspectiva estratégica, el <em>marketplace</em> constituye un canal que contribuye al fortalecimiento de la presencia digital de las organizaciones. Su utilización permite ampliar el alcance de los productos, facilitar la interacción con nuevos públicos y aprovechar infraestructuras digitales previamente consolidadas. Estas condiciones convierten al <em>marketplace</em> en una alternativa relevante para apoyar procesos de exhibición y comercialización dentro de entornos electrónicos.
 
         .tarjeta.bg-fondo-4.p-3.mb-5
           .row.align-items-center
@@ -150,7 +150,7 @@
               h5.d-inline-block.bg-color-5.p-2  Ejemplo aplicado
               p.mb-0 Una empresa dedicada a la comercialización de accesorios tecnológicos decidió incorporar sus productos en un <em>marketplace</em> reconocido. Gracias a esta decisión, logró aumentar la visibilidad de sus referencias comerciales y facilitar el acceso de nuevos usuarios a su catálogo digital. La plataforma permitió presentar información organizada sobre los productos, mejorar las oportunidades de consulta y fortalecer la presencia de la organización en el entorno digital.
         
-        p Lo invitamos a consultar, a continuación, el siguiente pódcast para profundizar sobre el <em>marketplace</em> y así afianzar los conceptos asociados al mismo.
+        p Lo invitamos a consultar el siguiente pódcast para profundizar sobre el <em>marketplace</em> y así afianzar los conceptos asociados al mismo.
 
         .row.justify-content-center.mb-5
           .col-lg-8
@@ -163,7 +163,7 @@
                   h2(data-aos="fade-left").mb-4 Pódcast
                   
                   TarjetaAudio.color-secundario.bg-color-white.mb-3(
-                    texto="<span style='font-style: normal !important;'>Comunicación online estratégica"
+                    texto="<span style='font-style: normal !important;'>Comunicación <em>online</em> estratégica"
                     tiempo
                     :audio="require_src('../assets/curso/podcast/podcast2.mp3')"
                   )

@@ -97,7 +97,7 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Lenguaje WEB',
+        titulo: 'Lenguaje web',
         desarrolloContenidos: true,
         subMenu: [
           {
