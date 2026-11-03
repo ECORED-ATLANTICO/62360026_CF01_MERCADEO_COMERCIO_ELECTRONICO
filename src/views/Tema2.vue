@@ -132,7 +132,7 @@
     figure.mb-5
       .video.mb-2
         iframe(width="560" height="315" src="https://www.youtube.com/embed/UAlKxl86Xlg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+
 
     .bg-fondo-1.bg-full-width
       .px-4.px-lg-5
