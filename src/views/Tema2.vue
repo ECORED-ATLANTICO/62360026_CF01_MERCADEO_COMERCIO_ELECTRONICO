@@ -129,9 +129,10 @@
             .col.mb-3.mb-sm-0
               h5 <em>Marketplace</em>
               p.mb-0 Lo invitamos a consultar el siguiente video por medio del cual podrá profundizar en la temática abordada, el cual explica el concepto de <em>marketplace</em> como un entorno de comercio digital donde compradores y vendedores interactúan para realizar transacciones comerciales.
-            .col-sm-auto
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=UAlKxl86Xlg " target="_blank")
-                span.bg-color-13 Ir al video
+    figure.mb-5
+      .video.mb-2
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/UAlKxl86Xlg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Leyenda del video
 
     .bg-fondo-1.bg-full-width
       .px-4.px-lg-5

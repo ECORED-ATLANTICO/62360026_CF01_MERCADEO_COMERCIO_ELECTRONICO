@@ -63,9 +63,12 @@
                 .col.mb-3.mb-sm-0
                   h5 Visión general del comercio electrónico
                   p.mb-0 Lo invitamos a consultar el siguiente video por medio del cual podrá profundizar en la temática abordada. En él se presenta una visión general del comercio electrónico (<em>e-commerce</em>) y su papel en la distribución, promoción, venta y comercialización de productos y servicios mediante internet.  
-                .col-sm-auto
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=KM-RhabB6qs" target="_blank")
-                    span.bg-color-13 Ir al video
+              
+        
+        figure.mb-5
+          .video.mb-2
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/KM-RhabB6qs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        
 
         separador
         
